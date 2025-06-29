@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-nav">
+                {% if user.is_authenticated %}
+                    {% if user.user_type == 'ADMIN' %}
+                        <a class="nav-link" href="{% url 'admin:index' %}">Админ панель</a>
+                    {% elif user.user_type == 'DEVELOPER' %}
+                        <a class="nav-link" href="{% url 'developer-profile' %}">Кабинет застройщика</a>
+                    {% elif user.user_type == 'CUSTOMER' %}
+                        <a class="nav-link" href="{% url 'customer-profile' %}">Личный кабинет</a>
+                    {% endif %}
+                    <a class="nav-link" href="{% url 'logout' %}">Выйти</a>
+                {% else %}
+                    <a class="nav-link" href="{% url 'login' %}">Войти</a>
+                    <a class="nav-link" href="{% url 'register' %}">Регистрация</a>
+                {% endif %}
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-4">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Профиль {{ user.user_type }}</h2>
+<p>Имя пользователя: {{ user.username }}</p>
+<p>Email: {{ user.email }}</p>
+<p>Тип пользователя: {{ user.get_user_type_display }}</p>
+<a href="{% url 'logout' %}">Выйти</a>
+{% endblock %}

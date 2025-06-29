@@ -1,0 +1,16 @@
+.registration-description{
+  color:var(--color-gray-text);
+  margin-top: 20px;
+}
+
+.registration-form-container{
+  height: 221px;
+  @include flex-direction();
+  &-inputs{
+    height: 103px;
+    @include flex-direction();
+  }
+  &-buttons{
+    @include flex-justify-content()
+  }
+}

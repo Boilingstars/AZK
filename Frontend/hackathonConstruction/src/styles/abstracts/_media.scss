@@ -1,0 +1,50 @@
+$wide-screens-min: 1281px;
+
+$desktop-max: 1280px;//максимальная ширина для десктопа
+$desktop-min: 885px;//минимальная ширина для десктопа
+
+$tablet-max: 884px;
+$tablet-min: 481px;
+
+$mobile-max: 480px;
+
+@mixin wide-screens{
+  @media (min-width: $wide-screens-min) {
+    @content;
+  }
+}
+
+@mixin desktop{
+  @media (min-width: $desktop-min) and (max-width: $desktop-max) {
+    @content;
+  }
+}
+
+@mixin tablet{
+  @media (min-width: $tablet-min) and (max-width: $tablet-max) {
+    @content;
+  }
+}
+
+@mixin mobile{
+  @media (max-width: $mobile-max) {
+    @content;
+  }
+}
+
+@mixin hover{ // для устройств с курсором и с тач экраном
+  @media (hover: hover){
+    &:hover{
+      @content;
+    }
+  }
+  @media (hover: none){ //сработает на устройстве с tach экраном, где наведения нет
+    &:active{
+      @content;
+    }
+  }
+}
+
+
+
+

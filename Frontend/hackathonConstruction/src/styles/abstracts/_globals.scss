@@ -1,0 +1,81 @@
+@import "_media.scss";
+@import "_mixins.scss";
+
+
+@include wide-screens{
+  .font-size-h1 {
+    @include fluid-text(26, 24);
+  }
+  .font-size-block-header {
+    @include fluid-text(20, 18);
+  }
+  .font-size-medium{
+    @include fluid-text(16, 14);
+  }
+    .font-size-regular{
+    @include fluid-text(14, 12);
+  }
+    .font-size-small{
+    @include fluid-text(12, 10);
+  }
+}
+@include desktop{
+  .font-size-h1 {
+    @include fluid-text(26, 24);
+  }
+  .font-size-block-header {
+    @include fluid-text(20, 18);
+  }
+  .font-size-medium{
+    @include fluid-text(16, 14);
+  }
+    .font-size-regular{
+    @include fluid-text(14, 12);
+  }
+    .font-size-small{
+    @include fluid-text(12, 10);
+  }
+}
+@include tablet{
+  .font-size-h1 {
+    @include fluid-text(26, 24);
+  }
+  .font-size-block-header {
+    @include fluid-text(20, 18);
+  }
+  .font-size-medium{
+    @include fluid-text(16, 14);
+  }
+    .font-size-regular{
+    @include fluid-text(14, 12);
+  }
+    .font-size-small{
+    @include fluid-text(12, 10);
+  }
+}
+@include mobile {
+  .font-size-h1 {
+    @include fluid-text(26, 24);
+  }
+  .font-size-block-header {
+    @include fluid-text(20, 18);
+  }
+  .font-size-medium{
+    @include fluid-text(16, 14);
+  }
+    .font-size-regular{
+    @include fluid-text(14, 12);
+  }
+    .font-size-small{
+    @include fluid-text(12, 10);
+  }
+}
+
+.container{
+  width: var(--container-width);
+  margin: 0 auto;
+  background-color: #F9F9F9;
+  padding: 0px 15px;
+  height: 100%;
+}
+

@@ -1,0 +1,12 @@
+nav{
+  width: var(--container-width);
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  translate: -50% 0%;
+  z-index: 1;
+  background-color:#fff;
+  border-top: solid 1px var(--color-gray-stroke);
+  padding: 19px 32px 30px 30px;
+  @include flex-justify-content();
+}

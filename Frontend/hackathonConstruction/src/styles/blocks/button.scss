@@ -1,0 +1,49 @@
+.button-registration{
+  height: 35px;
+  padding: 9px 32px;
+  color:#ffffff;
+  &-unselected{
+    border:solid 1px var(--color-gray-stroke); width:49%;
+    color: var(--color-gray-text); background-color: #fff;
+    transition-duration: var(--transition-duration);
+
+  }
+    &-unselected:hover{
+    border:none;
+    background-color:#000;
+    color:#fff;
+
+  }
+  &-selected{
+    border:none;
+    background-color:#000;
+    color:#fff;
+    width:49%;
+  }
+}
+
+.button-map-mode{
+  height: 25px;
+  padding: 5px 18px;
+  color:#000;
+  border: solid 1px #000;
+  background-color:#fff;
+  width: 60px;
+  transition-duration: var(--transition-duration);
+  &:hover{
+    background-color:#000;
+      color:#fff;
+  }
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+button span {
+  @include abs-center();
+}

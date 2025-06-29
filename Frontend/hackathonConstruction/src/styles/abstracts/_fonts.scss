@@ -1,0 +1,17 @@
+@import "_mixins.scss";
+
+@include font-face('Inter-Bold', '../fonts/Inter_18pt-Bold.ttf');
+@include font-face('Inter-Medium', '../fonts/Inter_18pt-Medium.ttf');
+@include font-face('Inter-Regular', '../fonts/Inter_18pt-Regular.ttf');
+
+.bold{
+  font-family: 'Inter-Bold'; 
+}
+
+.medium{
+  font-family: 'Inter-Medium'; 
+}
+.regular{
+  font-family: 'Inter-Regular'; 
+}
+

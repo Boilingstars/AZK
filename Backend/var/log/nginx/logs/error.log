@@ -1,0 +1,42 @@
+2025/06/29 06:57:14 [error] 15624#13116: *1 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1", referrer: "http://127.0.0.1/"
+2025/06/29 07:13:59 [emerg] 11744#12112: host not found in upstream "ai.AZK.com:80" in C:\Users\Evgen\Desktop\nginx-1.29.0/conf/nginx.conf:17
+2025/06/29 07:14:35 [emerg] 11100#14164: no "events" section in configuration
+2025/06/29 07:15:00 [error] 15624#13116: *5 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 10.2.1.83, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "10.2.1.83", referrer: "http://10.2.1.83/"
+2025/06/29 07:26:43 [error] 15624#13116: *10 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/test" failed (2: The system cannot find the file specified), client: 10.2.1.83, server: localhost, request: "GET /test HTTP/1.1", host: "10.2.1.83"
+2025/06/29 07:26:57 [error] 15624#13116: *10 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/test" failed (2: The system cannot find the file specified), client: 10.2.1.83, server: localhost, request: "GET /test HTTP/1.1", host: "10.2.1.83"
+2025/06/29 07:27:54 [emerg] 8520#780: no "events" section in configuration
+2025/06/29 07:28:05 [emerg] 9088#13964: no "events" section in configuration
+2025/06/29 07:28:09 [error] 15624#13116: *11 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/test" failed (2: The system cannot find the file specified), client: 10.2.1.83, server: localhost, request: "GET /test HTTP/1.1", host: "10.2.1.83"
+2025/06/29 07:28:15 [error] 15624#13116: *11 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/test" failed (2: The system cannot find the file specified), client: 10.2.1.83, server: localhost, request: "GET /test HTTP/1.1", host: "10.2.1.83"
+2025/06/29 07:38:35 [error] 15624#13116: *13 "C:\Users\Evgen\Desktop\nginx-1.29.0/html/test/index.html" is not found (3: The system cannot find the path specified), client: 10.2.1.83, server: localhost, request: "GET /test/ HTTP/1.1", host: "10.2.1.83"
+2025/06/29 07:39:02 [error] 15624#13116: *13 CreateFile() "C:\Users\Evgen\Desktop\nginx-1.29.0/html/nginx_status" failed (2: The system cannot find the file specified), client: 10.2.1.83, server: localhost, request: "GET /nginx_status HTTP/1.1", host: "10.2.1.83"
+2025/06/29 07:39:42 [emerg] 2128#2708: no "events" section in configuration
+2025/06/29 07:39:52 [emerg] 13684#12708: no "events" section in configuration
+2025/06/29 07:47:30 [emerg] 6420#12604: no "events" section in configuration
+2025/06/29 07:47:33 [emerg] 12280#10956: no "events" section in configuration
+2025/06/29 07:51:25 [emerg] 8228#8384: no "events" section in configuration
+2025/06/29 07:51:26 [emerg] 10204#11516: no "events" section in configuration
+2025/06/29 07:55:23 [emerg] 15264#15660: no "events" section in configuration
+2025/06/29 07:56:54 [emerg] 11920#11440: no "events" section in configuration
+2025/06/29 08:04:14 [emerg] 15836#12652: no "events" section in configuration
+2025/06/29 08:24:37 [emerg] 7724#9548: no "events" section in configuration
+2025/06/29 08:27:11 [emerg] 1196#9232: no "events" section in configuration
+2025/06/29 08:29:15 [emerg] 9040#4696: no "events" section in configuration
+2025/06/29 08:30:59 [emerg] 8228#1492: CreateFile() "C:/var/log/nginx/balancer_access.log" failed (3: The system cannot find the path specified)
+2025/06/29 08:34:14 [emerg] 5300#5436: CreateFile() "C:/var/log/nginx/balancer_access.log" failed (3: The system cannot find the path specified)
+2025/06/29 08:35:39 [emerg] 8900#3048: CreateFile() "C:/var/log/nginx/balancer_access.log" failed (3: The system cannot find the path specified)
+2025/06/29 08:35:57 [notice] 8500#6156: signal process started
+2025/06/29 08:35:57 [error] 8500#6156: OpenEvent("Global\ngx_reload_9996") failed (2: The system cannot find the file specified)
+2025/06/29 08:36:07 [emerg] 9908#2384: CreateFile() "C:/var/log/nginx/balancer_access.log" failed (3: The system cannot find the path specified)
+2025/06/29 08:37:44 [notice] 4816#9896: signal process started
+2025/06/29 08:37:44 [error] 4816#9896: OpenEvent("Global\ngx_reload_9996") failed (2: The system cannot find the file specified)
+2025/06/29 08:39:33 [notice] 8968#9488: signal process started
+2025/06/29 08:39:33 [error] 8968#9488: OpenEvent("Global\ngx_reload_9996") failed (2: The system cannot find the file specified)
+2025/06/29 08:41:49 [error] 3496#4876: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 10.2.1.83, server: 10.2.1.83, request: "GET /test/ HTTP/1.1", upstream: "http://10.2.1.83:8001/test/", host: "10.2.1.83:8000"
+2025/06/29 08:41:51 [error] 3496#4876: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 10.2.1.83, server: 10.2.1.83, request: "GET /favicon.ico HTTP/1.1", upstream: "http://10.2.1.83:8001/favicon.ico", host: "10.2.1.83:8000", referrer: "http://10.2.1.83:8000/test/"
+2025/06/29 08:41:53 [error] 3496#4876: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 10.2.1.83, server: 10.2.1.83, request: "GET /favicon.ico HTTP/1.1", upstream: "http://10.2.1.83:8001/50x.html", host: "10.2.1.83:8000", referrer: "http://10.2.1.83:8000/test/"
+2025/06/29 08:42:27 [notice] 8868#1648: signal process started
+2025/06/29 08:53:01 [notice] 7136#9580: signal process started
+2025/06/29 08:54:34 [notice] 4180#8900: signal process started
+2025/06/29 09:38:02 [error] 8888#8480: *30 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 10.2.1.77, server: 10.2.1.83, request: "GET /apartments/ HTTP/1.1", upstream: "http://10.2.1.83:8001/apartments/", host: "10.2.1.83:8000", referrer: "http://10.2.1.77:5173/main"
+2025/06/29 09:38:04 [error] 8888#8480: *30 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 10.2.1.77, server: 10.2.1.83, request: "GET /apartments/ HTTP/1.1", upstream: "http://10.2.1.83:8001/50x.html", host: "10.2.1.83:8000", referrer: "http://10.2.1.77:5173/main"

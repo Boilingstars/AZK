@@ -34,11 +34,11 @@ def build_retriever(df: pd.DataFrame):
 def ask_deepseek(prompt: str) -> str:
     url = "https://openrouter.ai/api/v1/chat/completions"
     headers = {
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer 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",
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "deepseek/deepseek-chat-v3-0324",
+        "model": "deepseek/deepseek-chat-v3-0324:free",
         "messages": [
             {"role": "system", "content": "Ты — профессиональный риелтор. Сначала оцени запрос клиента, затем предложи 3–5 вариантов из базы, а в конце сделай вывод."},
             {"role": "user", "content": prompt}
